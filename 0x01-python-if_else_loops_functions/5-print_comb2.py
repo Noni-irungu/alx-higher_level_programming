@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''A function that prints numbers 0 -99 separated by (,) and ' ' in ascending order'''
+'''A function that prints numbers 0 -99'''
 for y in range(0, 100):
     if y == 99:
         print("{}".format(y))
