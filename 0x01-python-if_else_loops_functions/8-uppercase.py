@@ -4,6 +4,7 @@ def uppercase(str):
     '''prints string in uppercase'''
 
     for chrt in str:
-        if ord("a") <= ord(chrt) <= ord("z"):
+        if ord(chrt) >= 97 and ord(chrt) <= 122:
             chrt = chr(ord(chrt) - 32)
-        print("{:s}".format(chrt), end=", ")
+        print("{}".format(chrt), end="")
+        print("")
