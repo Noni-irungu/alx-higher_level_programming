@@ -2,14 +2,14 @@ def add(a, b):
     result = a + b
     return result
 
-def subtract(a, b):
+def sub(a, b):
     result = a - b
     return result
 
-def multiply(a, b):
+def mul(a, b):
     result = a * b
     return result
 
-def division(a, b):
-    result = a / b
+def div(a, b):
+    result = int(a / b)
     return result
