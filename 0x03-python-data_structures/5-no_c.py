@@ -5,8 +5,5 @@ characters'''
 
 
 def no_c(my_string):
-    new_string = ""
-    for elements in my_string:
-        if elements != "c" and elements != "C":
-            new_string += elements
-        return new_string
+    updated_string = my_string.translate({ord(i): None for i in 'cC'})
+    return updated_string
