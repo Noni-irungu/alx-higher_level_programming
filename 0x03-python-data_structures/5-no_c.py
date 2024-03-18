@@ -5,8 +5,8 @@ characters'''
 
 
 def no_c(my_string):
-    updated_string = ""
+    new_string = ""
     for elements in my_string:
         if elements != "c" and elements != "C":
             updated_string += elements
-        return updated_string
+        return new_string
