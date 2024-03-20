@@ -5,7 +5,8 @@ value in a dictionary'''
 
 
 def complex_delete(a_dictionary, value):
-    for key in list(a_dictionary):
-        if a_dictionary[key] == value:
-            del a_dictionary[key]
+    temp = a_dictionary.copy()
+    for j, g in temp.items():
+        if value == g:
+            a_dictionary.pop(j)
     return a_dictionary
