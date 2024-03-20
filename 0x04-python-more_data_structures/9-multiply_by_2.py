@@ -5,4 +5,7 @@ its values multiplied by 2'''
 
 
 def multiply_by_2(a_dictionary):
-    return {key: num*2 for key, num in a_dictionary.items()}
+    nw_dicti = {}
+    for j in a_dictionary:
+        nw_dicti[j] = a_dictionary[j] * 2
+    return nw_dicti
